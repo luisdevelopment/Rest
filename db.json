@@ -1,0 +1,176 @@
+{
+  "Pratos": [
+    {
+      "id": "1",
+      "nome": "Almôndegas",
+      "tipo": "1",
+      "status": "true"
+    },
+    {
+      "id": "2",
+      "nome": "Frango Assado com batatas e ervas",
+      "tipo": "1",
+      "status": "true"
+    },
+    {
+      "id": "3",
+      "nome": "Assado de Panela",
+      "tipo": "1",
+      "status": "true"
+    },
+    {
+      "id": "4",
+      "nome": "Fígado acebolado",
+      "tipo": "1",
+      "status": "true"
+    },
+    {
+      "id": "5",
+      "nome": "Baião",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "6",
+      "nome": "Arroz",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "7",
+      "nome": "Feijão",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "8",
+      "nome": "Macarrão",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "9",
+      "nome": "Purê de abóbora",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "10",
+      "nome": "Salada Verde",
+      "tipo": "2",
+      "status": "true"
+    },
+    {
+      "id": "11",
+      "nome": "Farofa",
+      "tipo": "2",
+      "status": "true"
+    }
+  ],
+  "Clientes": [
+    {
+      "id": "1",
+      "email": "email1@email.com",
+      "telefone": "85986600815",
+      "nome": "Jackson",
+      "token": "",
+      "senha": "123456789",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "email": "email1@email.com",
+      "telefone": "85994114750",
+      "nome": "Joice Morais",
+      "token": "",
+      "senha": "123456789",
+      "status": "1"
+    },
+    {
+      "email": "joaoemail@email.com",
+      "telefone": "99999999999",
+      "nome": "João Pedro",
+      "token": "poiuytrew",
+      "senha": "123456789",
+      "status": "0",
+      "id": "vFgInJ0"
+    }
+  ],
+  "Pedidos": [
+    {
+      "id": "1",
+      "clienteId": "1",
+      "data": "30-09-2020",
+      "valor": "10,00"
+    },
+    {
+      "id": "2",
+      "clienteId": "1",
+      "data": "30-09-2020",
+      "valor": "10,00"
+    },
+    {
+      "id": "3",
+      "clienteId": "2",
+      "data": "30-09-2020",
+      "valor": "10,00"
+    },
+    {
+      "id": "4",
+      "clienteId": "1",
+      "data": "31-09-2020",
+      "valor": "10,00"
+    }
+  ],
+  "Detalhes": [
+    {
+      "id": "1",
+      "prato_id": "1",
+      "pedido_id": "1"
+    },
+    {
+      "id": "2",
+      "prato_id": "2",
+      "pedido_id": "1"
+    },
+    {
+      "id": "3",
+      "prato_id": "6",
+      "pedido_id": "1"
+    },
+    {
+      "id": "4",
+      "prato_id": "7",
+      "pedido_id": "1"
+    },
+    {
+      "id": "5",
+      "prato_id": "8",
+      "pedido_id": "1"
+    },
+    {
+      "id": "6",
+      "prato_id": "1",
+      "pedido_id": "2"
+    },
+    {
+      "id": "7",
+      "prato_id": "3",
+      "pedido_id": "2"
+    }
+  ],
+  "Pagamentos": [
+    {
+      "id": "1",
+      "pedido_id": "1",
+      "valor": "10,00",
+      "data": "30-09-2020"
+    },
+    {
+      "id": "2",
+      "pedido_id": "2",
+      "valor": "10,00",
+      "data": "20-09-2020"
+    }
+  ]
+}
